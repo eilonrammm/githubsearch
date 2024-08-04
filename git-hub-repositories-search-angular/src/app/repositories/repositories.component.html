@@ -3,6 +3,9 @@
     <mat-list-item *ngFor="let repo of repositories">
       <img matListAvatar [src]="repo.owner?.avatarUrl" alt="{{ repo.name }}" />
       <h3 matLine>{{ repo.name }}</h3>
+      <button mat-icon-button (click)="toggleBookmark(repo)">
+        <mat-icon>{{ repo.isBookmarked ? 'check' : 'bookmark_border' }}</mat-icon>
+      </button>
     </mat-list-item>
   </mat-list>
 </mat-card>

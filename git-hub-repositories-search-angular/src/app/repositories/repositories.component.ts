@@ -16,4 +16,8 @@ export class RepositoriesComponent implements OnInit {
       this.repositories = data;
     });
   }
+  
+  toggleBookmark(repo: any) {
+    repo.isBookmarked = !repo.isBookmarked;
+  }
 }
