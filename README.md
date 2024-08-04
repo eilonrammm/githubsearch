@@ -22,10 +22,7 @@ This project is a simple GitHub repositories search application. The purpose of 
    - Each item includes the repository name, the owner's avatar, and a bookmark button.
 
 3. **Bookmark Repositories:**
-   - Users can bookmark repositories, which will be stored in the user's session (custom session implementation).
-   
-4. **Bookmark Screen:**
-   - A separate screen is provided where users can view all their bookmarked repositories.
+   - Users can bookmark repositories.
 
 ## Setup and Installation
 
