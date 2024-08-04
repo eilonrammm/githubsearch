@@ -1,0 +1,21 @@
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 0;
+  width: 100%;
+}
+
+.search-bar-form-field {
+  width: 300px;
+}
+
+.mat-form-field-wrapper {
+  padding: 8px;
+}
+
+.search-button {
+  margin-top: 15px;
+  height: 30px; /* Match the height of the mat-form-field for alignment */
+}
