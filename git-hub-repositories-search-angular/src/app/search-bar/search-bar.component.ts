@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { RepositoryService } from '../repository-service.service';
+import { RepositoryService } from '../repository.service';
 import { RepositoryStateService } from '../repository-state.service';
 
 @Component({
